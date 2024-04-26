@@ -1,4 +1,4 @@
-# <span style="color:#ADD8E6">CSCB09A2
+# <span style="color:#ADD8E6">FD tables tool
 
 ## <span style="color:#ADD8E6">Problem Solving</span>
 - The hardest thing in this assignment is finding the information of PIDS, inodes FD from the /proc directory.
@@ -8,7 +8,7 @@
 - proc/pid/fd/filename to handle name of files
 - Use proc/pid/fd to iterate through valid fd and record the counts for fd_cnt used in threshold
 
-- Just like a1, I used a linked-list data structure to store information about process, and a loop to handle all the arguments
+- I used a linked-list data structure to store information about process, and a loop to handle all the arguments
 
 ## <span style="color:#ADD8E6">Outline of program </span>
 
